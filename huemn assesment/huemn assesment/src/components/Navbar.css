@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-family: Open Sans;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    column-gap: 50px;
+    height: 70px;
+    font-size: large;
+    align-items: center;
+    padding-left: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-items{
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.d-items{
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+}
+
+select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+    cursor: pointer; 
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+option {
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+}
